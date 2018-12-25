@@ -4,11 +4,11 @@
   </div>
 </template>
 <script>
-  export default {
-    data() {
-      return {
-        homeText: 'Home page'
-      };
+export default {
+  data () {
+    return {
+      homeText: 'Home page'
     }
-  };
+  }
+}
 </script>

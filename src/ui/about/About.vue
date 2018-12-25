@@ -4,11 +4,11 @@
   </div>
 </template>
 <script>
-  export default {
-    data() {
-      return {
-        aboutText: 'About Page'
-      };
+export default {
+  data () {
+    return {
+      aboutText: 'About Page'
     }
-  };
+  }
+}
 </script>

@@ -1,10 +1,10 @@
 // router.js
-import Vue from 'vue';
-import Router from 'vue-router';
-import Home from '../ui/home/Home.vue';
-import About from '../ui/about/About.vue';
+import Vue from 'vue'
+import Router from 'vue-router'
+import Home from '../ui/home/Home.vue'
+import About from '../ui/about/About.vue'
 
-Vue.use(Router);
+Vue.use(Router)
 
 export function createRouter () {
   return new Router({
@@ -13,5 +13,5 @@ export function createRouter () {
       { path: '/', component: Home },
       { path: '/about', component: About }
     ]
-  });
+  })
 }
